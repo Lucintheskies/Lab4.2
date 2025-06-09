@@ -73,3 +73,17 @@ margin-block-start: 0;
     align-items: center;
     gap:3vh;    
 }
+/*------------ Estilo de un Nuevo Single ------- */
+#nuevoSingle{
+ display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3vh;
+}
+#nuevoSingle video{
+    border: 5px solid rgb(255, 255, 255);
+    width: 100%;
+}
