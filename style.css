@@ -12,10 +12,6 @@ body{
     flex-direction: column;
 }
 
-.navbar{
- 
-}
-
 ul{
    
     display: flex;
@@ -57,23 +53,37 @@ margin-block-start: 0;
     gap:3vh;
 }
 
-
 .inicio-img{
-
+    width: 300vh;
 }
+
+.inicio-img img{
+    width: 70vh;
+}
+
 .inicio-texto{
+    text-align: justify;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-}
 #ultimaActuacion{
- display: flex;
-    flex-direction: row;
+    display: flex;
     flex-wrap: nowrap;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: center;
-    gap:3vh;    
+    align-content: space-between;
+    justify-content: center;
+    gap: 3vh;
+    flex-direction: column;
+    align-items: center;  
 }
+
+.UlActuacionTexto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
 /*------------ Estilo de un Nuevo Single ------- */
+
 #nuevoSingle{
  display: flex;
     flex-direction: column;
@@ -81,9 +91,13 @@ margin-block-start: 0;
     align-content: center;
     justify-content: flex-start;
     align-items: center;
-    gap: 3vh;
 }
+
 #nuevoSingle video{
     border: 5px solid rgb(255, 255, 255);
     width: 100%;
+}
+
+#nuevoSingle audio{
+    
 }
