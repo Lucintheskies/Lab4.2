@@ -1,77 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#ultimaActuacion">Última Actuación</a></li>
-                <li><a href="#nuevoSingle">Nuevo Single</a></li>
-            </ul>
-        </nav>
-        <h1>Spice Grills</h1>
-        <p>Somos las parrilleras más calientes</p>
+  <body>
+    
+     <!-- -+-+-+-+-+-+-+- cabecera-+-+-+-+-+-+-->
+    <header class="cabecera">
+      <nav class="navbar">  <!-- menu de navegación--> 
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#ultimaActuacion">Última Actuación</a></li>
+          <li><a href="#nuevoSingle">Nuevo Single</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">  
+      <h1>Spice Grills</h1>
+      <p class="subtitulo">Somos las parrilleras más calientes</p>
+      </div> 
     </header>
+
+    <!-- -+-+-+-+-+-+-+- Main-+-+-+-+-+-+-->
     <main>
-        <section  id="inicio">
-            <div>
-                <img src="./media/foto.jpeg" alt="señora cantando">
-            </div>
-            <div>
-                <h2>La mejor cantante del momento</h2>
-                <p>asjaksjasjhaksjhashjasjasajksasjkjasj ajksjaskjaks ajskjaksjaksaskajskajsn jaksjaksjaljajk kaljkjakja
-                    ajskajskajskjaksjjajjaja jajkjaksjkajkajkajajaj jakjakjakjakjakajkajkjaajj jajakjakjakja
-                    jakjajajajjanaja
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum
-                </p>
-            </div>
-        </section>
-        <section id="ultimaActuacion">
-            <div>
-                <h2>Mira nuestra ultima actuacion</h2>
-                <p>Nuestro concierto en Miami</p>
-            </div>
-            <div>
-                <iframe src="https://www.rtve.es/play/videos/los-conciertos-de-radio-3-en-la-2/futurachicapop/16505820/"
-                    frameborder="5"></iframe>
-            </div>
-        </section>
-        <section id="nuevoSingle" >
-            <div>
-                <video controls width="250" src="./media/video.mp4">
-                    <p>tu navegador no soporta este video</p>
-                </video>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h2>Nuestro nuevo single</h2>
-                <figure>
-                    <figcaption>Escucha nuestra nueva maqueta: Simple Joy 👇👇👇</figcaption>
-                    <audio controls controlslist="nodownload" src="./media/simple-joy-315042.mp3"></audio>
-                </figure>
-            </div>
-        </section>
-    </main>
-    <footer>
+      <section id="inicio">
         <div>
-            <p>Spice Grills 2025❤️ | Created by L_A_L_A</p>
+          <img src="./media/foto.jpeg" alt="señora cantando" />
         </div>
+        <div>
+          <h2>La mejor cantante del momento</h2>
+          <p>
+            asjaksjasjhaksjhashjasjasajksasjkjasj ajksjaskjaks
+            ajskjaksjaksaskajskajsn jaksjaksjaljajk kaljkjakja
+            ajskajskajskjaksjjajjaja jajkjaksjkajkajkajajaj
+            jakjakjakjakjakajkajkjaajj jajakjakjakja jakjajajajjanaja Lorem
+            Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum
+          </p>
+        </div>
+      </section>
+      <section id="ultimaActuacion">
+        <div>
+          <h2>Mira nuestra ultima actuacion</h2>
+          <p>Nuestro concierto en Miami</p>
+        </div>
+        <div>
+          <iframe
+            src="https://www.rtve.es/play/videos/los-conciertos-de-radio-3-en-la-2/futurachicapop/16505820/"
+            frameborder="5"
+          ></iframe>
+        </div>
+      </section>
+      <section id="nuevoSingle">
+        <div>
+          <video controls width="250" src="./media/video.mp4">
+            <p>tu navegador no soporta este video</p>
+          </video>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Nuestro nuevo single</h2>
+          <figure>
+            <figcaption>
+              Escucha nuestra nueva maqueta: Simple Joy 👇👇👇
+            </figcaption>
+            <audio
+              controls
+              controlslist="nodownload"
+              src="./media/simple-joy-315042.mp3"
+            ></audio>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+ <!-- -+-+-+-+-+-+-+- footer-+-+-+-+-+-+-->
+    <footer>
+      <div>
+        <p>Spice Grills 2025❤️ | Created by L_A_L_A</p>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
