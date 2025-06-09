@@ -47,5 +47,29 @@ margin-block-start: 0;
 
 /* ------------ Estilo del Main ------- */
 
+#inicio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    gap:3vh;
+}
 
 
+.inicio-img{
+
+}
+.inicio-texto{
+
+}
+#ultimaActuacion{
+ display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    gap:3vh;    
+}
